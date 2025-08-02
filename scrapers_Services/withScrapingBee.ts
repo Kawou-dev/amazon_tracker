@@ -1,7 +1,7 @@
 "use server"
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import { extractCurrency, extractDescription, extractPrice } from './src/lib/utils';
+import { extractCurrency, extractDescription, extractPrice } from '../src/lib/utils';
 
 export async function scrapeAmazonProduct(url: string) {
     if (!url) return;
