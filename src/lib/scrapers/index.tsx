@@ -17,7 +17,7 @@ export async function scrapeAmazonProduct(url: string) {
             timeout: 80000,
         });
 
-        console.log(response)
+        // console.log(response)
 
         const $ = cheerio.load(response.data);
 

@@ -96,7 +96,7 @@ export const sendEmail = async (emailContent: EmailContent, sendTo: string[]) =>
       return;
     }
 
-    console.log('Email envoyé avec succès avec Resend :', data);
+    console.log('Email envoyé avec succès avec Resend : ---->', data);
   } catch (err) {
     console.error('Erreur inattendue lors de l\'envoi de l\'email avec Resend :', err);
   }
